@@ -348,7 +348,7 @@ def gameloop():
             gameWindow.fill(black)
             gameWindow.blit(bgimg3, (0, 0))
             retry(color2, 220, 220, 150, 50, color2, "Retry", red, 45, "retry")
-            button4(color2, 220, 300, 150, 50, color2, "Exit", red, 45, "exit")
+            button5(color2, 220, 300, 150, 50, color2, "Exit", red, 45, "exit")
             screen_text(str(score), red, 350, 25,60)
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
